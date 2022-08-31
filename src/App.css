@@ -25,6 +25,10 @@
   font-size: calc(10px + 2vmin);
 }
 
+.App-main {
+  display: flex;
+}
+
 .App-link {
   color: rgb(112, 76, 182);
 }

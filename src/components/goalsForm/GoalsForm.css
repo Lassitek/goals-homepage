@@ -1,0 +1,29 @@
+/*
+GoalsForm CSS File
+*/
+.goals-form {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.25);
+    width: 100%;
+    max-width: ;
+    margin: 100px 20px 0;
+    padding: 0 20px;
+    border-radius: 20px;
+}
+.goals-form h1 {
+    color: white;
+    text-align: left;
+}
+.goals-form input {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    margin-bottom: 40px;
+    outline: none;
+}

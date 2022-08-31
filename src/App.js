@@ -1,6 +1,7 @@
 import React from 'react';
 import { InspirationalImage } from './features/inspirationalImage/InspirationalImage.js';
 import { Weather } from './features/weather/Weather.js';
+import { GoalsForm } from './components/goalsForm/GoalsForm.js';
 import './App.css';
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
         <Weather />
       </header>
       <InspirationalImage />
-      <main>
+      <main className="App-main">
+        <GoalsForm />
 
       </main>
     </div>
