@@ -20,7 +20,7 @@ export const GoalsForm = () => {
     };
 
     return (
-        <form class='goals-form' onSubmit='' >
+        <form className='goals-form' onSubmit='' >
             <h1>What's on your mind today?</h1>
             <input type='text' onChange={handleChange} value={goalName} />
         </form>

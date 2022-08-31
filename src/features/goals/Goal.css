@@ -1,0 +1,61 @@
+/*
+Goal CSS File
+*/
+.goal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.5);
+    height: 80px;
+    padding: 0px 20px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+}
+
+.goal[data-complete=true] {
+    opacity: 0.3;
+}
+
+.goal-controls {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    font-size: 12px;
+}
+
+.goal-control {
+    background-color: rgba(0, 255, 0, 0.5);
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: 1.5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.goal-done {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+.goal-done:hover {
+    background-color: rgba(0, 255, 0, 0.65);
+}
+
+.goal-remove {
+    background-color: rgba(250, 72, 72, 0.5);
+}
+
+.goal-remove:hover {
+    background-color: rgba(250, 72, 72, 0.65);
+}
+
+.goal-redo {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+.goal-redo:hover {
+    background-color: rgba(0, 255, 0, 0.65);
+}

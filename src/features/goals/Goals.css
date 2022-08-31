@@ -5,11 +5,13 @@ Goals CSS File
     position: relative;
     z-index: 1;
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     background-color: rgba(255, 255, 255, 0.25);
     width: 100%;
     min-height: 100px;
     margin: 10px 20px 0;
-    padding: 0 20px;
+    padding: 40px 20px;
     border-radius: 20px;
 }
 
