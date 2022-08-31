@@ -3,8 +3,7 @@ import { InspirationalImage } from './features/inspirationalImage/InspirationalI
 import { InspirationalImageLeftArrow } from './features/inspirationalImage/InspirationalImageLeftArrow.js';
 import { InspirationalImageRightArrow } from './features/inspirationalImage/InspirationalImageRightArrow.js';
 import { Weather } from './features/weather/Weather.js';
-import { GoalsForm } from './components/goalsForm/GoalsForm.js';
-import { Goals } from './features/goals/Goals.js';
+import { GoalsContainer } from './components/goalsContainer/GoalsContainer.js';
 import { InspirationalQuote } from './features/inspirationalQuote/InspirationalQuote.js';
 
 import './App.css';
@@ -18,10 +17,7 @@ function App() {
       <InspirationalImage />
       <main className="App-main">
         <InspirationalImageLeftArrow />
-        <div className="goals-container">
-          <GoalsForm />
-          <Goals />
-        </div>
+        <GoalsContainer />
         <InspirationalImageRightArrow />
       </main>
       <footer>

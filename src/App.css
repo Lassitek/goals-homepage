@@ -42,12 +42,6 @@
   color: rgb(112, 76, 182);
 }
 
-.goals-container {
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-}
-
 @keyframes App-logo-float {
   0% {
     transform: translateY(0);
