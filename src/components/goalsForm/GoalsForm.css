@@ -6,13 +6,14 @@ GoalsForm CSS File
     z-index: 1;
     background-color: rgba(255, 255, 255, 0.25);
     width: 100%;
-    margin: 100px 20px 0;
+    margin: 80px 20px 10px;
     padding: 0 20px;
     border-radius: 20px;
 }
 .goals-form h1 {
     color: white;
     text-align: left;
+    margin: 20px 0 0;
 }
 .goals-form input {
     width: 100%;
@@ -23,6 +24,6 @@ GoalsForm CSS File
     background-color: transparent;
     border: none;
     border-bottom: 2px solid white;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     outline: none;
 }
