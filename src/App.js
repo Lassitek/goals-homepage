@@ -1,9 +1,9 @@
 import React from 'react';
+import { Weather } from './features/weather/Weather.js';
+import { GoalsContainer } from './components/goalsContainer/GoalsContainer.js';
 import { InspirationalImage } from './features/inspirationalImage/InspirationalImage.js';
 import { InspirationalImageLeftArrow } from './features/inspirationalImage/InspirationalImageLeftArrow.js';
 import { InspirationalImageRightArrow } from './features/inspirationalImage/InspirationalImageRightArrow.js';
-import { Weather } from './features/weather/Weather.js';
-import { GoalsContainer } from './components/goalsContainer/GoalsContainer.js';
 import { InspirationalQuote } from './features/inspirationalQuote/InspirationalQuote.js';
 
 import './App.css';

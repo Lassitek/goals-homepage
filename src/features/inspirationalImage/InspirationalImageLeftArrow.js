@@ -1,10 +1,12 @@
 /*
-InspirationalQuote.js Feature
+InspirationalLeftArrow.js Feature
 
 Imports
 ===============================
 */
-import React, { useState } from 'react';
+import React from 'react';
+import { useDispatch } from 'react-redux';
+import { prevImage } from './InspirationalImagesSlice.js';
 import './InspirationalImageLeftArrow.css';
 
 
@@ -13,9 +15,15 @@ Component
 ===============================
 */
 export const InspirationalImageLeftArrow = () => {
+    const dispatch = useDispatch();
+
+    function onClickHandler(e) {
+        dispatch(prevImage());
+    }
+    
     return (
         <aside class='inspirational-image-left-arrow'>
-            <button>&#x3c;</button>
+            <button onClick={onClickHandler} >&#x3c;</button>
         </aside>
     )
 }
