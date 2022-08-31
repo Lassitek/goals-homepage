@@ -1,0 +1,20 @@
+/*
+InspirationalQuote CSS File
+*/
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+.quote-message {
+    margin: 0;
+}
+
+.quote-author {
+    margin: 0;
+}

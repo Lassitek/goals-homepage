@@ -1,0 +1,17 @@
+/*
+InspirationalImageLeftArrow CSS File
+*/
+.inspirational-image-left-arrow {
+    width: 5%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+}
+
+.inspirational-image-left-arrow button {
+    color: white;
+    background-color: transparent;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}

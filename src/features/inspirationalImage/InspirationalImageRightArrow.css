@@ -1,0 +1,18 @@
+/*
+InspirationalImageRightArrow CSS File
+*/
+.inspirational-image-right-arrow {
+    width: 5%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: end;
+}
+
+.inspirational-image-right-arrow button {
+    color: white;
+    background-color: transparent;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}
