@@ -20,11 +20,17 @@ Goal CSS File
     opacity: 0.3;
 }
 
+.goal:hover .goal-controls {
+    opacity: 1;
+}
+
 .goal-controls {
     position: absolute;
     top: -8px;
     right: -8px;
     font-size: 12px;
+    opacity: 0;
+    transition: all 0.3s;
 }
 
 .goal-control {
