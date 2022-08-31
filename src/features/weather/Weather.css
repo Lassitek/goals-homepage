@@ -1,0 +1,15 @@
+/*
+Weather CSS File
+*/
+.weather {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    color: white;
+    padding-right: 40px;
+    
+}
+.weather img {
+    max-width: 60px;
+    max-height: 60px;
+}
