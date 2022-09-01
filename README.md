@@ -1,6 +1,7 @@
 # Goals Homepage with React and Redux
 
 Homepage showing goals and inspirational quotes. Built with React + Redux.
+
 Demo: https://hilarious-dragon-35b6b1.netlify.app/
 
 ## Features / Components
