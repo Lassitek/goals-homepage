@@ -11,7 +11,13 @@ Homepage showing goals and inspirational quotes. Built with React + Redux
 &nbsp;
 
 ## APIs Utilized
++`They Said So Quotes API` 
 
+(https://quotes.rest/)
+
++`OpenWeather API`
+
+(https://openweathermap.org/api)
 
 &nbsp;
 ## Learn More
