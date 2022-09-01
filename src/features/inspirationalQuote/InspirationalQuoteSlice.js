@@ -28,6 +28,9 @@ export const inspirationalQuoteSlice = createSlice({
     reducers: {
         getQuote: (state, action) => {
             return [...state, action.payload];
+        },
+        setQuote: (state, action) => {
+            return action.payload;
         }
     }
 });
@@ -46,5 +49,5 @@ export const selectQuote = (state) => {
 Exports
 ===============================
 */
-export const { getQuote } = inspirationalQuoteSlice.actions;
+export const { getQuote, setQuote } = inspirationalQuoteSlice.actions;
 export default inspirationalQuoteSlice.reducer;
