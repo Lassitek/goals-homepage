@@ -1,5 +1,5 @@
 /*
-Goals.js Slice
+GoalsSlice.js Slice
 
 Imports
 ===============================

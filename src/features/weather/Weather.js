@@ -18,7 +18,7 @@ export const Weather = () => {
     const weather = useSelector(selectWeather);
     
     return (
-        <div class='weather'>
+        <div className='weather'>
             <img src={weather.img} />
             <div>
                 <div>{weather.degree}&deg;</div>

@@ -5,6 +5,8 @@ Imports
 ===============================
 */
 import React, { useState } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { selectQuote } from './InspirationalQuoteSlice.js';
 import './InspirationalQuote.css';
 
 
@@ -13,13 +15,12 @@ Component
 ===============================
 */
 export const InspirationalQuote = () => {
-    const [quoteMessage, setQuoteMessage] = useState('Meaning is something you build into your life. You build it out of your own past, out of your affections and loyalties, out of the experience of humankind as it is passed on to you... You are the only one who can put them together into that unique pattern that will be your life.');
-    const [quoteAuthor, setQuoteAuthor] = useState('John Gardner');
+    const {quoteMessage, quoteAuthor} = useSelector(selectQuote);
 
     return (
         <div className='quote'>
             <p className='quote-message' >{quoteMessage}</p>
-            <p className='quote-author' >{quoteAuthor}</p>
+            <p className='quote-author' >-{quoteAuthor}</p>
         </div>
         
     )

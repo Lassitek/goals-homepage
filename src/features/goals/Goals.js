@@ -20,7 +20,7 @@ export const Goals = () => {
 
     return (
         <div className='goals'>
-            {goals.map(goal => <Goal id={goal.id} name={goal.name} isComplete={goal.isComplete} />)}
+            {goals.map(goal => <Goal key={goal.id} id={goal.id} name={goal.name} isComplete={goal.isComplete} />)}
         </div>
     )
 }

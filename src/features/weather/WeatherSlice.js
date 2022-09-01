@@ -12,7 +12,7 @@ Variables
 ===============================
 */
 const initialState = {
-    degree: '44.7 &deg;',
+    degree: '44.7',
     details: 'CLEAR SKY',
     img: 'https://cdn-icons-png.flaticon.com/512/169/169367.png'
 }

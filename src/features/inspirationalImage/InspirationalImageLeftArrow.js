@@ -22,7 +22,7 @@ export const InspirationalImageLeftArrow = () => {
     }
     
     return (
-        <aside class='inspirational-image-left-arrow'>
+        <aside className='inspirational-image-left-arrow'>
             <button onClick={onClickHandler} >&#x3c;</button>
         </aside>
     )
