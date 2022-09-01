@@ -12,11 +12,13 @@ Variables
 ===============================
 */
 const initialState = {
-    degree: '44.7',
-    details: 'CLEAR SKY',
-    img: 'https://cdn-icons-png.flaticon.com/512/169/169367.png'
+    //degree: '44.7',
+    //details: 'CLEAR SKY',
+    //img: 'https://cdn-icons-png.flaticon.com/512/169/169367.png'
 }
-
+const apiKey = 'f4ebc400d68eafae371f75c7d66fc38f';
+export const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=40&lon=-73&appid=${apiKey}`;
+console.log(apiUrl);
 
 /*
 Slice
@@ -28,6 +30,9 @@ export const weatherSlice = createSlice({
     reducers: {
         getWeather: (state, action) => {
             return state;
+        },
+        setWeather: (state, action) => {
+            return action.payload;
         }
     }
 });
@@ -43,8 +48,15 @@ export const selectWeather = (state) => {
 
 
 /*
+Thunks
+===============================
+*/
+
+
+
+/*
 Exports
 ===============================
 */
-export const { getWeather } = weatherSlice.actions;
+export const { getWeather, setWeather } = weatherSlice.actions;
 export default weatherSlice.reducer;
