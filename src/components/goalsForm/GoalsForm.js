@@ -1,5 +1,5 @@
 /*
-InspirationalImage.js Feature
+GoalsForm.js Component
 
 Imports
 ===============================
@@ -37,7 +37,7 @@ export const GoalsForm = () => {
     }
 
     return (
-        <form className='goals-form' onSubmit={handleSubmit} >
+        <form className='goals-form' onSubmit={handleSubmit} aria-label="goal form">
             <h1>What's on your mind today?</h1>
             <input type='text' onChange={handleChange} value={goalName} />
         </form>
